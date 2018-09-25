@@ -82,7 +82,7 @@ function draw() {
 	rect(295,270,10,30);
 	rect(315,275,10,25);
 
-	//bottons
+	//buttons
 	strokeWeight(0);
 	stroke(8,115,104);
 	fill(244,205,47);
