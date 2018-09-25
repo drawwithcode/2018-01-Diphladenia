@@ -22,12 +22,12 @@ function draw() {
 	ellipse(175,150,50,50);
 	ellipse(325,150,50,50);
 
-	//Neck
+	//neck
 	fill(127,22,9);
 	rectMode(CORNER);
 	rect(225, 200, 50, 25);
 
-	//ombra
+	//shadow
 	strokeWeight(0);
 	stroke(44,28,247);
 	fill(208,104,55);
@@ -94,7 +94,6 @@ function draw() {
 	rect(180,310,20,20);
 	rect(305,310,20,20);
 	rect(230,310,45,20);
-
 
 	//fingers
 	strokeWeight(4);
