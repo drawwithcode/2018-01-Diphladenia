@@ -1,7 +1,6 @@
 function setup() {
 	// define artboard size
 	createCanvas(500,500);
-	// Set here the values that are not changing all over the sketch
 }
 
 function draw() {
@@ -27,10 +26,6 @@ function draw() {
 	fill(127,22,9);
 	rectMode(CORNER);
 	rect(225, 200, 50, 25);
-	//line(250, 285, 250, 345);
-
-	//Wheel
-	//ellipse(250, 465, 70, 70);
 
 	//ombra
 	strokeWeight(0);
@@ -54,7 +49,7 @@ function draw() {
 	fill(208,215,224);
 	ellipse(250,440,40,40);
 
-	//spalle
+	//shoulders
 	strokeWeight(4);
 	stroke(8,115,104)
 	fill(187,67,37);
@@ -62,7 +57,7 @@ function draw() {
 	rect(125,250,25,50);
 	rect(350,250,25,50);
 
-	//Body
+	//body
 	strokeWeight(8);
 	stroke(8,115,104)
 	fill(187,67,37);
@@ -73,7 +68,7 @@ function draw() {
 	fill(15,167,151);
 	rect(150, 225, 200, 125);
 
-	//computer
+	//display
 	strokeWeight(0);
 	fill(9,85,83);
 	rect(175,250,150,50);
@@ -201,7 +196,6 @@ function draw() {
 	//ellipse(287,137,15,15);
 	ellipse(((mouseX/4000)*15+212),((mouseY/4000)*15+137),15,15);
 	ellipse(((mouseX/4000)*15+287),((mouseY/4000)*15+137),15,15);
-
 
 	//light
 	strokeWeight(0);
